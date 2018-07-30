@@ -1,0 +1,125 @@
+.wrap{
+    min-height: 650px;
+    max-height: 900px;
+    box-shadow:0 1px 5px #6c757d;
+    min-width: 582px;
+}
+#newReg{
+    display: none;
+}
+.m-form img{
+    position: absolute;
+    width: 334px;
+    min-height: 190px;
+}
+.bgimg{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 582px;
+    height: 650px;
+    overflow: hidden;
+
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.wrap1{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    margin: -150px auto 0;
+    width: 100%;
+    background: rgba(255,255,255,0);
+    min-width: 582px;
+}
+.wrap1 .logo{
+    position: relative;
+    z-index: 3;
+    margin: 0 auto 60px;
+}
+.wrap3{
+    margin: 0 auto;
+    width: 582px;
+}
+.userLink a{
+    position: relative;
+    z-index: 4;
+    float: left;
+    width: 291px;
+    height: 56px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 56px;
+    background-color: rgba(17,17,17,0.5);
+    color: rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(17,17,17,0.3);
+}
+.userLink a:hover{
+    color: #fffffa;
+}
+.userLink a:focus{
+    transition: all 0.3s;
+    background-color: #F9F9F5;
+    color: #000000;
+}
+.m-form{
+    position: relative;
+    z-index: 3;
+    padding: 30px;
+    color: #888;
+    background-color: #F9F9F5;
+}
+.m-form .newReg,
+.m-form .newlogin{
+    position: relative;
+    width: 524px;
+    height: 200px;
+}
+.m-form button{
+    margin:0px 0px 14px 7px;
+}
+.m-form img{
+    position: absolute;
+    width: 334px;
+    min-height: 190px;
+}
+.btn-outline-info:hover span{
+    color: #FFFFFF;
+}
+.col-sm-8{
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.col-sm-4{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.logo{
+    background-color: #ffffff1a;
+    border: 1px solid #e1e2e5;
+    /*box-shadow: 0 2px 4px rgba(0,0,0,.16);*/
+    width: 270px;
+    height: 140px;
+    text-align: center;
+}
+.logo h1{
+    font-size: 37px;
+}
+.logo h4,
+.logo h1{
+    color: #97a96f;
+}
+/*.logo img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+.btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 1rem !important;
+    font-size: 1.25rem !important;
+}

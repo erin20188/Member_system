@@ -1,0 +1,22 @@
+.col-md-2 .nav-header{
+    padding: 0.8rem 1rem;
+    padding-left: 35px;
+}
+.search{
+    padding: 10px 120px 10px 20px ;
+}
+.search input, .search button {
+    float: left;
+    display: block;
+    border: 0;
+    padding: 6px 20px;
+    outline: 0;
+}
+.search input {
+    width: 80%;
+}
+.search button {
+    width: 20%;
+    background: #8b9b65;
+    color: #FFFFFF;
+}

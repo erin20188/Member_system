@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9F9F5;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #7c9d27;
+}
+.container-sm{
+    max-width: 1080px;
+}
+.btn-primary{
+    background-color: #899961;
+    border-color: #8fa25f;
+}
+.btn-primary:hover{
+    background-color:#779039;
+    border-color:#51671b;
+}
+.footer{
+    padding: 50px 0;
+    text-align: center;
+    color: #999;
+}
+.logo{
+    /*width: 341px;*/
+    /*height: 124px;*/
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+.ex{
+    color: #555555;
+    font-size: smaller;
+}
+.reRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.reRow p{
+    padding: 0 15px;
+}
+.line{
+    content: "|";
+    /*color: #e1e1e1;*/
+    color: #000099;
+    width: 20px;
+    height: 40px;
+}
+/*头部样式*/
+.logo-sm{
+    /*logo图片*/
+    background-image: url(../img/logo.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 25px;
+    bottom: 9px;
+    height: 50px;
+    width: 60px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.header{
+    min-width: 915px !important;
+    height: 68px;
+    padding: 20px 0;
+    background-color:#e7e9e26b;
+}
+.rcol-2,.rcol-5,.rcol-3{
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+.rcol-2{
+    width: 20%;
+}
+.rcol-3{
+    width: 30%;
+}
+.rcol-5{
+    width: 50%;
+}
+.clear_float:after,
+.clear_float:before{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.header .search{
+    border: 2px solid #899961;
+}
+.position{
+    float: right;
+    display: block;
+    padding-left: 100px;
+}
+.search input{
+    width: 80%;
+}
+.search button {
+    width: 20%;
+    background: #8b9b65;
+    color: #FFFFFF;
+}
+.search button:hover{
+    background-color: #a2b27cde;
+}
+.search input, .search button {
+    float: left;
+    display: block;
+    border: 0;
+    padding: 6px 20px;
+    outline: 0;
+}
+
+/*会员信息和index页的分割符*/
+.title:before{
+    content: " ";
+    display: inline-block;
+    width: 6px;
+    height: 18px;
+    background: #6f8142;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.title{
+    color: #899961;
+    font-size: 18px;
+    padding-top: 8px;
+}
+/*快捷键*/
+#goTop{
+    color: #7c9d27;
+    background-color: rgba(255,255,255,.6);
+    box-shadow: 1px 1px 3px #e9ecef;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 55px;
+    height: 60px;
+    padding: 5px 20px;
+    z-index: 999;
+    display: none;
+}
+#goTop:hover{
+    background-color: rgb(255,255,255);
+    color: #536a1a;
+}
+
+/*导航栏*/
+.nav-item,.nav-header{
+    padding: 10px 20px;
+}
+li {
+    list-style: none;
+}
+#fist-nav{
+    padding-left: 0;
+}
+.navbar{
+    padding: 0 1rem;
+}
+.navbar .face{
+    width: 36px;
+    height: 36px;
+    transition: .2s;
+}
+.navbar .face img{
+    border: 1px solid #000000;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+nav{
+    background-color: #FFFFFF;
+}
+.nav-wrap{
+   width: 1080px;
+    margin: 0 auto;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item:hover{
+    color: #7c9d27;
+    background-color:#0000001c;
+}
+.dropdown-menu{
+    margin-top: 0;
+    min-width: 160px;
+}
+.f-left{
+    float: right;
+}
+.myNav .navbar-expand-lg .navbar-collapse{
+    display: inline-flex !important;
+}
+#face-bar,
+.dropdown-menu{
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+    border-radius: 0 0 4px 4px;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    border: 0px;
+}
+#face-bar{
+    padding: 15px 0 0;
+    width: 220px;
+    top: 100%;
+    margin-left:  -80px;
+    transition: .2s;
+}
+.face-bar div{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.face-bar .name{
+    padding-right: 15px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.face-bar .score{
+    padding-bottom: 10px;
+}
+.face-menu a,
+.face-bar .score a{
+    color: #666666;
+}
+.face-menu a:hover ,
+.face-bar .score a:hover{
+    text-decoration: none;
+    color: #7c9d27;
+}
+.quit{
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.face-menu ul{
+    padding-left: 20px;
+}
+.face-menu li{
+    font-size: 14px;
+    float: left;
+    width: 70px;
+    margin-right: 30px;
+    position: relative;
+}
+#mobile-face{
+    display: none;
+}

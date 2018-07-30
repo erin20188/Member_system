@@ -1,0 +1,34 @@
+[
+{
+    "compName":"美食记",
+    "classify":"美食",
+    "addr":"四川大学",
+    "image":"img/index-4.jpg",
+    "comments":'134'
+},
+
+{
+    "compName":"一点点",
+    "classify":"美食",
+    "addr":"华联",
+    "image":"img/index-5.jpg",
+},
+{
+    "compName":"KFC",
+    "classify":"美食",
+    "addr":"华联",
+    "image":"img/hotle-1.webp",
+},
+{
+    "compName":"一点点",
+    "classify":"美食",
+    "addr":"华联",
+    "image":"img/hotle-3.webp",
+},
+{
+    "compName":"KFC",
+    "classify":"美食",
+    "addr":"华联",
+    "image":"img/food-厘途·LittleTravel(少城店)-斑斓戚风.jpg",
+},
+]

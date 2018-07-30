@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>商家登录</title>
+    <link rel="stylesheet" href="css/myCss.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/registerLogin.css"/>
+</head>
+<body>
+<div>
+    <div class="nav">
+        <div class="logoName">七彩云</div>
+    </div>
+    <div class="container container-sm">
+        <h3>商家登录</h3>
+        <form action="loginServ" id="loginMember" method="post">
+            <div class="form-group">
+                <label>用户名</label>
+                <input type="text" class="form-control" name="username" id="username"/>
+                <div id="username-input-check"></div>
+            </div>
+            <div class="form-group">
+                <label>密码</label>
+                <input type="password" class="form-control" name="password" id="password"/>
+                <div id="password-input-check"></div>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" name="login-btn" id="login-btn" type="submit">登录</button>
+            </div>
+            <div class="form-group">
+                <a href="#">忘记密码？</a>
+                <div class="float-right">没有账号？<a href="registerMerchant.html">注册</a></div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="Jquery/jquery.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
+

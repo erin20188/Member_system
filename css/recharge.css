@@ -1,0 +1,18 @@
+
+thead{
+    text-align: center;
+}
+#readInfo{
+    float: right;
+    margin: 10px 0;
+}
+.recharge .form-horizontal:active{
+    border-radius: 5px;
+}
+.recharge .form-horizontal{
+    border-radius: 5px;
+    float: right;
+}
+.recharge div{
+    margin-bottom: 10px;
+}

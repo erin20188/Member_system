@@ -1,0 +1,100 @@
+.search-info{
+    height: 1800px;
+}
+.active{
+    background-color: #8b9b65;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+.nav1{
+    height: 42px;
+    line-height: 20px;
+    padding: 12px 0 12px 15px;
+    margin: 10px 0;
+    position: relative;
+    background-color: #dfe0cb45;
+}
+.path{
+    display: inline-block;
+    padding: 0 3px;
+    color:rgba(0,0,0,.4);
+}
+.classify, .site{
+    position: relative;
+    margin-bottom: 10px;
+}
+.content h4{
+    padding: 10px 40px 0 10px;
+    font-size: 15px;
+    color: #999;
+}
+.classify a, .site a{
+    display: inline-block;
+    margin-left: -4px;
+    padding:4px;
+    max-width: 85px;
+    font-size: 15px;
+    color: #666666;
+}
+.cf-container a,.site-container a,#all-cf,#all-site{
+    float: left;
+    width: 97px;
+    margin: 5px 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    color: #333333;
+}
+.shop-item{
+    padding: 18px 0 18px 12px;
+    border-bottom: 1px solid #ABABAB;
+}
+.shop-name{
+    font-size: 17px;
+    max-width: 380px;
+    color: #333;
+    padding-bottom: 7px;
+    display: block;
+}
+.info-bar > div{
+    padding-bottom: 7px;
+}
+.ex{
+    font-size: 14px;
+}
+.list{
+    background: rgba(0,0,0,.05);
+    margin-top: 15px;
+    padding: 5px 10px 10px 10px;
+}
+.list .desc{
+    color: #999;
+    font-size: 13px;
+}
+.col-md-2 .list .item{
+    padding: 8px 4px;
+}
+.container-sm{
+    background-color: #fff;
+    padding: 20px 24px 10px;
+    border-radius:0 0 10px 10px;
+    box-shadow:0 1px 3px #6c757d;
+}
+.container{
+    display: block;
+    max-width: 1080px;
+}
+ul{
+    -moz-padding-start: 12px;
+    -webkit-padding-start: 12px;
+}
+.wranning{
+    padding-bottom: 10px;
+    color: #d6414f;
+    font-size: 17px;
+}

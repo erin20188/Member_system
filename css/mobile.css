@@ -1,0 +1,35 @@
+#menu-toggle{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color:#444444;
+    z-index: 10002;
+}
+.visuallyhidden{
+    opacity: 0;
+}
+.hidden{
+    display: none;
+}
+.nav-wrap{
+    transition: all 600ms;
+    visibility: visible;
+}
+.myNav .navbar-nav{
+    position: relative;
+    float: none;
+    width: 100%;
+}
+.myNav .navbar-expand-lg .navbar-collapse{
+    display: block !important;
+}
+.f-left{
+    float: none;
+}
+#face-link{
+    display: none;
+}
+#mobile-face{
+    display: block;
+}

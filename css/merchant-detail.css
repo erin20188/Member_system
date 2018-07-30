@@ -1,0 +1,124 @@
+body {
+    font-family: "STFangsong ";
+}
+
+.nav-all {
+    display: table !important;
+    margin: 11px !important;
+}
+
+.nav-logo {
+    display: table-cell !important;
+    padding: 11px !important;
+    width: 30px !important;
+    height: 30px !important;
+    vertical-align: middle !important;
+}
+
+.nav-search {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    color: #484848 !important;
+    border: 0px solid !important;
+    border-radius: 3px !important;
+    box-shadow: 1px 1px #989898;
+    background-color: #ffffff !important;
+    position: relative !important;
+    z-index: 0 !important;
+    margin: 0px !important;
+    border-color: #ffffff !important;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    width: 600px !important;
+}
+
+.nav-text {
+    text-overflow: ellipsis !important;
+    line-height: 22px !important;
+    padding: 11px !important;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    background-color: #ffffff !important;
+    border: 0px !important;
+    width: 100% !important;
+}
+
+.inp {
+    outline: none !important;
+    border: 0px !important;
+    width: 80% !important;
+}
+.inp:focus {
+    outline: none !important;
+    border: 0px !important;
+}
+
+.nav-icon {
+    display: table-cell !important;
+    padding: 11px !important;
+    vertical-align: middle !important;
+}
+
+.nav-font {
+    text-align: center !important;
+    width: 40px !important;
+}
+
+.nav-input {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    width: 80%;
+}
+
+.nav-nav {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    padding-right: 200px !important;
+    height: 46px !important;
+}
+
+.nav-ul {
+    display: table !important;
+    list-style: none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.nav-li {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    position: relative !important;
+}
+
+.nav-btn {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    height: 100% !important;    
+    box-sizing: border-box !important;
+}
+
+.nav-word {
+    display: inline-block !important;
+    padding: 11px !important;
+    vertical-align: middle !important;
+    line-height: 1 !important;
+    border-bottom: 2px solid transparent !important;
+}
+
+.nav-font-box {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    height: 40px !important;
+}
+
+a:link {
+    color: black;
+}
+
+.nav-word:hover {
+    text-decoration: none;
+    border-width: 1px !important;
+    border-color: green !important;
+}
+

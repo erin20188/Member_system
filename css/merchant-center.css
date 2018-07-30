@@ -1,0 +1,170 @@
+body{
+    color: #222;
+    margin: 20px auto;
+}
+
+.container-mcenter {
+    background-color: #fff;
+    padding-right:10px;
+    border-radius: 10px;
+    box-shadow:1px 1px 6px #6c757d;
+    max-width: 980px;
+}
+
+.row{
+    margin-left: -16px;
+}
+
+.col-l{
+    flex: 0 0 15.3%;
+    max-width: 15.3%;
+    padding-right:0;
+    height: 1000px !important;
+}
+
+.col-r{
+    flex: 0 0 84.7%;
+    max-width: 84.7%;
+}
+
+.nav-pills{
+    background-color: #fafafa;
+    border-radius: 10px 0 0 10px;
+}
+
+.nav-header,
+.nav-pills i{
+    color: #99a2aa;
+}
+
+.nav-header{
+    display: block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    cursor: default;
+    border-bottom: 1px solid #e1e2e5;
+}
+
+.nav-pills i{
+    padding:0 7px 0 12px;
+}
+
+.nav-item{
+    padding:0.8rem 1rem;
+}
+
+.nav-item span{
+    font-size: 15px;
+    letter-spacing: 0.8px;
+}
+
+.nav-item:hover {
+    background-color: #e1e4ea;
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+.a-present {
+    background-color: #4a8b67;
+}
+
+.mhome-avatar {
+    radius: 40%;
+}
+
+.page-block {
+    display: block;
+    margin: 70px !important;
+    margin-top: 100px !important;
+}
+
+.home-head {
+    display: block;
+    width: auto;
+    height: 50px;
+    border-bottom: 1px solid #99a2aa;
+}
+
+.pwd-block {
+    display: block;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.pwd-item {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Microsoft Yahei";
+    width: 100px;
+    height: 26px;
+    overflow: hidden;
+}
+
+.pwd-input {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 340px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.pwd-input:focus {
+    outline: none;
+}
+
+button {
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.pwd-button {
+    margin-top: 70px;
+    width: 70px;
+    margin-left: 375px;
+    background: white;
+}
+
+.review-block {
+    margin: auto;
+}
+
+textarea {
+    margin-left: 25px;
+    border: 1px solid !important;
+    border-radius: 3px;
+}
+
+.review-text:focus {
+    outline: none;
+}
+
+.review-button {
+    margin-top: 20px;
+    margin-left: 560px;
+    width: 70px;
+    background: white;
+}
+
+#mHomepage,
+#mInfopage,
+#mPicpage,
+#mEventpage,
+#mPwdpage,
+#mReviewpage
+ {
+    display: none;
+}
